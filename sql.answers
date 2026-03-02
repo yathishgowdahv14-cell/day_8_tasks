@@ -18,3 +18,7 @@ SELECT * FROM Employees WHERE LastName = 'Davolio';
 SELECT * FROM Products WHERE CategoryID != 2;
 SELECT * FROM Customers WHERE Country IN ('Germany', 'France');
 SELECT * FROM Customers WHERE Country != 'UK';
+
+SELECT * FROM Customers WHERE CustomerName LIKE 'B%';
+SELECT * FROM Customers WHERE CustomerName LIKE '%s';
+SELECT * FROM Customers WHERE CustomerName LIKE '%on%';
